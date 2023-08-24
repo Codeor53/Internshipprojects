@@ -1,0 +1,88 @@
+.head{
+    width: 1024px;
+    height: 100px;
+    background-color: blue;
+    color:white;
+    font-size: 25px;
+}
+.menu{
+    width: 1024px;
+    height: 30px;
+    background-color: black;
+}
+.menu ul{
+    display: inline;
+}
+.menu li{
+    display: inline;
+    padding-left: 80px;
+    padding-right: 80px
+}
+.menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.menu a:hover{
+    color:red;
+    text-decoration: red underline;
+}
+.contain{
+    width:1024px;
+    position: relative;
+    color: white;
+    height:auto;
+    background-image: url("pexels-philippe-donn-1169754.jpg");
+    background-size: contain;
+}
+.footer{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    top: 10px;
+    width: 1024px;
+    height:40px;
+    background-color: black;
+}
+button{
+    position: relative;
+    left: 80px;
+    border-radius: 5px;
+    transition: .5s;
+}
+button:hover{
+    color: yellow;
+    background-color: black;
+}
+input:hover{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.50);
+    
+}
+textarea:hover{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.50);
+
+}
+select:hover{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.50);
+
+}
+textarea{
+    position: relative;
+    top: 13px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    transition: .3s;
+}
+select{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    transition: .3s;
+}
+input{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    transition: .3s;
+}

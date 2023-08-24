@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: aquamarine;
+        color:black;
+        font-style: italic;
+        text-decoration:solid;
+    }
+    label{
+        color: red;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    input{
+                    
+         border-color: black;
+         border-radius: 10px;
+    }
+    select{
+            
+            border-color: black;
+            border-radius: 10px;
+    }
+  
+</style>
+<body>
+    <h3 style="text-align: center; text-decoration: red double underline; font-family: Verdana, Geneva, Tahoma, sans-serif;">Student Registration Form</h3>
+   <fieldset>
+    <legend>personal information</legend>
+   <form action="Bankregistrationform.html">
+   <label for ="fname">First name:</label><br>
+   <input type="text"id=fname="fname" required><br>
+    <label for ="lname">Second name:</label><br>
+   <input type="text"id=lname="lname" required><br>
+   </fieldset>
+    <fieldset>
+         <legend>contact information</legend>
+         <label for="Email">Email:</label><br>
+         <input type="email"id=Email="Email" required><br>
+        
+        <label for="Mobile no:">Mobile No:</label><br>
+        <input type="number"id=Mobile:="Mobile" required><br>
+    </fieldset>  
+    <fieldset>
+        <legend>College information</legend><br>
+        <label for="college name">College Name:</label><br>
+        <select name="q" id="college">
+        <option>--select--</option>
+        <option value="rcti">RCTI</option>
+        <option value="GP Gandhinagar">GP Gandhinagar</option>
+        <option value="GP Ambavadi">GP Ambavadi</option>
+        </select>
+        <br>
+        <label for="college department">College Department:</label><br>
+        <input type="text"id=college_department="college_department" required><br>
+        <label for="class Division">Class Division: </label><br>
+        <input type="number-text"id=Class_division="Class_division" required><br>
+        <label for="Enrollment No:">Enrollment No:</label><br>
+        <input type="number"id=Enrollment_no="Enrollment_no" required><br>
+    </fieldset>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>
